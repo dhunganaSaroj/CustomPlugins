@@ -1,0 +1,32 @@
+.margin_input_fields {
+    width: 100%;
+    max-width: 150px;
+    border: none!important;
+}
+#margin_row {
+    padding: 8px 15px;
+    background: #2271b1;
+    color: #fff;
+    margin: auto 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 0.5s linear;
+}
+#margin_row:hover {
+    background: #164870;
+}
+.remove_row {
+    color: #ad112d;
+    background: #fff;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+
+div#single-product-repeater {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
